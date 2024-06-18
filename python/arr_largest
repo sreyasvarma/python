@@ -1,0 +1,10 @@
+lar=0
+arr=[]
+n=int(input("Enter the number of elements: "))
+for i in range(0,n):
+    i=int(input("enter the value"))
+    arr.append(i)
+    if i>lar:
+        lar=i
+
+print(lar)
